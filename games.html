@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Styles-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top" id="home">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"><i class="fa fa-bars"></i></button>
+        <a class="navbar-brand" href="index.html"><img src="assets/images/gLogo.png" alt="Geoff Logo"></a>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home nav-icon"></i>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info-circle nav-icon"></i>About Me</a></li>
+                <li class="nav-item active"><a class="nav-link" href="games.html"><i class="fa fa-trophy nav-icon"></i>Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-camera nav-icon"></i>Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-phone nav-icon"></i>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+       
+        <h2 class="text-center orange">Game Development Projects</h2>
+        <h4 class="text-center">A few of the games I have developed over the years</h4>
+    </header>
+    <div class="container">
+        <hr>
+        <h5 class="orange">Sanbox Game</h5>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 game-item">
+                <div class="hovereffect">
+                    <img src="assets/images/sanboxScreenshot.png" alt="" class="img-fluid img-responsive album-image">
+                    <a class="game-link" href="about.html">View Source Code</a>
+                </div>
+            </div>
+            <div class="col-md-8 text-justify game-item">
+                <h6>Description:</h6>
+                <p>One of the more recent games I have developed. A sandbox game inspired by Terraria. The player can mine, pick up and place items.</p>
+                <h6>Tools:</h6>
+                <p>Developed in Java, using libGDX, a game-development application framework.</p>
+            </div>
+        </div>
+        <hr>
+        <h5 class="orange">3D Low Poly Game</h5>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 game-item">
+                <div class="hovereffect">
+                    <img src="assets/images/3DScreenshot.png" alt="" class="img-fluid album-image">
+                    <a class="game-link" href="games.html">View Source Code</a>
+                </div>
+            </div>
+            <div class="col-md-8 text-justify game-item">
+                <h6>Description:</h6>
+                <p>A 3D generated sandbox world, where the player can interact with the terrain.</p>
+                <h6>Tools:</h6>
+                <p>Developed in Java, using OpenGL.</p>
+            </div>
+        </div>
+        <hr>
+        <!--<h5 class="orange">2D Tower Defence</h5>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 game-item">
+                <div class="hovereffect">
+                    <img src="assets/images/1.jpg" alt="" class="img-fluid album-image">
+                    <a class="game-link" href="gallery.html">View Source Code</a>
+                </div>
+            </div>
+            <div class="col-md-8 text-justify game-item">
+                <h6>Description:</h6>
+                <p>The first fully functioning game I developed. A 2D tower Defence game, where the objective is to last as any rounds as possible by buying towers and placing them on the map to destroy oncoming enemies.</p>
+                <h6>Tools:</h6>
+                <p>Developed in Java, using the Lightweight Java Game Library (LWJGL), a Java game development library.</p>
+            </div>
+        </div>
+        <hr>
+        <h5 class="orange">Android Game</h5>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 game-item">
+                <div class="hovereffect">
+                    <img src="assets/images/1.jpg" alt="" class="img-fluid album-image">
+                    <a class="game-link" href="contact.html">View Source Code</a>
+                </div>
+            </div>
+            <div class="col-md-8 text-justify game-item">
+                <h6>Description:</h6>
+                <p>One of my few ventures into Android game development. This app is a simple game, in which the player controls a spaceship and tries to fly as far as possible, whilst attempting to avoid friendly ships and hit enemy ships. </p>
+                <h6>Tools:</h6>
+                <p>This application was developed in Java using Android Studio.</p>
+            </div>
+        </div>
+        <hr>-->
+        <p><strong>More to be uploaded overnight...</strong></p>
+    </div>
+
+    <footer class="container" id="contact">
+        <hr>
+        <div class="text-center footer-item">
+            <a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="social"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" class="social"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

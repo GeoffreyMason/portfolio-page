@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Styles-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top" id="home">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"><i class="fa fa-bars"></i></button>
+        <a class="navbar-brand" href="index.html"><img src="assets/images/gLogo.png" alt="Geoff Logo"></a>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home nav-icon"></i>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info-circle nav-icon"></i>About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="games.html"><i class="fa fa-trophy nav-icon"></i>Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-camera nav-icon"></i>Gallery</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contact.html"><i class="fa fa-phone nav-icon"></i>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <h4>Contact Me:</h4>
+                <form action="form.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Your name...">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" name="email" placeholder="Your email...">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Your message..."></textarea>
+                    </div>
+                    <!--<input type="submit" value="Submit">-->
+                    <button type="submit" name="submit" class="btn">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-5 text-center my-auto">
+                <h4>Email</h4>
+                <p>geoxpm@hotmail.com</p>
+                <hr>
+                <h4>Phone</h4>
+                <p>+44(0)7443525504</p>
+                <hr>
+                <h4>Location</h4>
+                <p>Cardiff, Wales, UK</p>
+            </div>
+        </div>
+    </div>
+    <footer class="container" id="contact">
+          <hr>
+           <div class="text-center footer-item">
+                <a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" class="social"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" class="social"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Styles-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top" id="home">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"><i class="fa fa-bars"></i></button>
+        <a class="navbar-brand" href="index.html"><img src="assets/images/gLogo.png" alt="Geoff Logo"></a>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home nav-icon"></i>Home</a></li>
+                <li class="nav-item  active"><a class="nav-link" href="about.html"><i class="fa fa-info-circle nav-icon"></i>About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="games.html"><i class="fa fa-trophy nav-icon"></i>Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-camera nav-icon"></i>Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-phone nav-icon"></i>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero-header">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="assets/images/profile2.jpg" alt="My Name is Bond" class="hero-image img-fluid">
+            </div>
+            <div class="col-sm-6 hero-text">
+                <h1>Geoffrey Mason</h1>
+                <h4>Web Developer</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-justify" id="about">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="orange">Personal Statement</h4>
+                <p>While studying for a BSc in Physics at Cardiff University, I enjoyed the analytical and problem solving aspects of the various computer related modules and as a result, started to research the subject out of personal interest. I have since developed a good knowledge of HTML, CSS, JavaScript and Java and used them to work on personal projects, designing responsive web pages and mobile apps. While deciding on my next career move, I have helped design promotional materials for a Cardiff charity using Photoshop and more recently I have been working in hospitality. This has given me the ability to manage heavy workloads under pressure, to work well in a team, to communicate effectively with customers and colleagues and to use my language skills in English, Portuguese and German. I am now planning to use these skills to move into a career in web development, with a focus on front-end development. </p>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/GEOX_BOND.jpg" alt="Image" class="img-fluid text-image">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <h4 class="orange">Web Dev Skills</h4>
+                <ul>
+                    <li>Good understanding of HTML, CSS, JavaScript and Java</li>
+                    <li>Experience using jQuery and Bootstrap</li>
+                    <li>Knowledge of Python</li>
+                    <li>Graphic design experience using Photoshop</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="assets/images/golf.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <h4 class="orange">Personal Skills</h4>
+                <ul>
+                    <li>Proven analytical and problem solving skills</li>
+                    <li>Ability to work under pressure and as part of a team</li>
+                    <li>Strong written and verbal communication skills</li>
+                    <li>Native speaker level English, Portuguese and German</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="assets/images/football.jpg" alt="Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h4><a href="#hiddenText" data-toggle="collapse" target-data="#hiddenText">Want To See Some Hidden Stuff?</a></h4>
+        <div id="hiddenText" class="collapse">
+            <h4>I support Tottenham Hotspur</h4>
+
+        </div>
+    </div>
+
+    <footer class="container" id="contact">
+        <hr>
+        <div class="text-center footer-item">
+            <a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="social"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" class="social"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
